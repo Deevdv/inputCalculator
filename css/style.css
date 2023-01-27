@@ -1,5 +1,6 @@
 h1 {
     color: rgb(22, 22, 128);
+    text-align: center;
 }
 
 body {
@@ -10,8 +11,10 @@ a {
     text-decoration: none;
 }
 
-button {
-    display: block;
+#ifCalc {
+    margin: auto;
+    text-align: center;
+    display: inline-block;
     text-decoration: none;
     background-color: rgb(228, 216, 239);
     border: 5pt;
@@ -19,7 +22,31 @@ button {
     border-color: rgb(177, 146, 216);
     color: rgb(83, 113, 139);
     height: 5vw;
-    width: 10vw;
+    width: 20vw;
     font-size: 13pt;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#switchCalc {
+
+        margin: auto;
+        text-align: center;
+        display: inline-block;
+        text-decoration: none;
+        background-color: rgb(228, 216, 239);
+        border: 5pt;
+        border:thick double;
+        border-color: rgb(177, 146, 216);
+        color: rgb(83, 113, 139);
+        height: 5vw;
+        width: 20vw;
+        font-size: 13pt;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+#switch {
+    text-align: center;
+}
+
+#if {
+    text-align: center;
 }
